@@ -1,0 +1,4 @@
+variante,arch,pos_emb_type,dataset,learning_rate,max_iters,train_loss_final,val_loss_final,val_loss_melhor,divergiu,n_avaliacoes,elapsed_s
+arch,"{'n_layer': 4, 'n_head': 8, 'n_embd': 384, 'block_size': 128, 'dropout': 0.3}",learned,machado_char,0.001,15000,3.1268,3.1471,1.5573,False,31,1335.2
+rope,"{'n_layer': 6, 'n_head': 6, 'n_embd': 384, 'block_size': 256, 'dropout': 0.2}",rope,machado_char,0.001,15000,nan,nan,2.6256,True,31,5676.1
+bpe,"{'n_layer': 6, 'n_head': 6, 'n_embd': 384, 'block_size': 256, 'dropout': 0.2}",learned,machado_bpe1500,0.0003,15000,4.9492,5.1044,4.3995,False,31,4422.3

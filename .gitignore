@@ -1,0 +1,26 @@
+# Clone de terceiro (karpathy/nanoGPT) — não versionado, ver README para como
+# obter (o notebook clona sozinho quando executado).
+nanoGPT/
+**/nanoGPT/
+
+# Corpus bruto/gerado — regenerável via corpus/build_corpus.py, ver README.
+corpus/raw_gutenberg/
+corpus/train.txt
+
+# Artefatos de execução local do hpsearch/ (cache do tokenizer BPE, logs brutos).
+hpsearch/*.pkl
+hpsearch/full_run*.log
+
+# Ambiente Python / SO
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# LaTeX (build local do artigo — o PDF final já vai versionado)
+artigo/*.aux
+artigo/*.bbl
+artigo/*.blg
+artigo/*.log
+artigo/*.out
+artigo/*.toc
